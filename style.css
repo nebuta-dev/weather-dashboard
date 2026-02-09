@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+#temp{
+    font-size: xx-large;
+    color: rgb(255, 208, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px black;
+}
+
+#humidity{
+    font-size: xx-large;
+    color: rgb(255, 208, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px black;
+}
+
+#condition{
+    font-size: xx-large;
+    color: rgb(255, 208, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px black;
+}
