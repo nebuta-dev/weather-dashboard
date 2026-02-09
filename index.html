@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <form>
+        <h1>WEATHER FORECAST</h1>
+        <input id="cityName" type="text">
+        <button id=citySubmit type="submit">Submit city</button>
+        <br>
+        <div id="loading" style="display: none;">Loading...</div>
+        <br>
+        <div id="temp"></div>
+        <br>
+        <div id="humidity"></div>
+        <br>
+        <div id="condition"></div>
+        <img id="icon">
+        <div id="location"></div>
+        <div id="time"></div>
+        <div id="weatherError"></div>
+
+    </form>
+    <script src="config.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
